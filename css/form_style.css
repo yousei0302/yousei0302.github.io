@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CED0DE;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.header {
+    background-color:white;
+    padding: 1em;
+}
+.header img {
+    position: relative;left: 1em;top 5px;
+}
+.conteiner-wrapper {
+    margin: 2em auto;
+    background-color: white;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+.conteiner-wrapper .conteiner-title {
+    border-bottom: 0.1px solid #cecece; 
+    color: #4954b8;
+}
+.conteiner-wrapper h2 {
+        position: relative; top:0.5em; left:1em;
+}
+.conteiner-wrapper .conteiner-body {
+}
+.conteiner-wrapper .form-wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 500px;
+}
+.conteiner-wrapper form {
+    padding-bottom: 3em;
+}
+.conteiner-wrapper .form-item {
+    margin: 1.5em auto;
+    width: 40%
+}
+.conteiner-wrapper .form-item input {
+    display: block;
+    border: none;
+    background-color: #ECECEC;
+    padding: 1em 0.5em;
+    border-radius: 10px;
+    width: 100%;
+}
+.conteiner-wrapper .form-item input::placeholder{
+    color: #cecece;
+    padding-left: 1em;
+}
+
+.conteiner-wrapper #new-team-create{
+    display: inline-block;
+    width: 5%;
+    position: relative;top:3px;
+}
+.conteiner-wrapper .checkbox{
+    text-align: right;
+    margin-top: -3em;
+    
+}
+.conteiner-wrapper .form-item label span{
+    color: black;
+    border: none;
+}
+.conteiner-wrapper p {
+    display: inline;
+    font-size: 0.7em;
+}
+.conteiner-wrapper span{
+    color: red;
+    font-size: 0.7em;
+    margin-left: 1em;
+    border: 0.1px solid;
+}
+#create-account {
+}
+#create-account.btn{
+    margin: auto;
+    display: block;
+    background: none;
+    background-color: #4954b8;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3em;
+    padding: 0.5em 1.5em;
+    border-radius: 10px;
+}
+

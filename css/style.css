@@ -1,0 +1,125 @@
+@charset "UTF-8";
+meta {
+}
+title {
+}
+link {
+}
+.logo {
+}
+.logo img {
+    width 100%;
+    
+}
+.form-wrapper {
+}
+.form-wrapper .form {
+}
+.form-wrapper .form .icon {
+}
+.form-wrapper .form br {
+}
+.form-wrapper input {
+}
+.form-wrapper .link {
+}
+.form-wrapper .link br {
+}
+.form-wrapper a {
+}
+.form-wrapper label {
+}
+.form-wrapper .swich {
+}
+.form-wrapper .swich .icon {
+}
+.form-wrapper .btn {
+}
+.acount-criate {
+}
+.acount-criate p {
+}
+.acount-criate a {
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CED0DE;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.logo{
+    margin: 3em auto;
+    margin-bottom: 0em;
+    max-width: 420px;
+}
+
+.form-wrapper{
+    background: #fafafa;
+    margin: 0em auto;
+    padding: 3em 3em 9em;
+    max-width: 350px;
+    border-radius: 10px;
+    
+}
+
+.form input{
+    border: none;
+    border-bottom: 0.5px solid #707070;
+    background: none;
+    font-size: 1.3em;
+    margin-bottom: 2em;
+    width: 350px;
+    margin-right: -3em;
+    color: #cecece;
+}
+.form input::placeholder{
+    color: #cecece;
+    
+}
+
+.form .icon{
+    margin-bottom: -0.6em;
+    margin-right: 0.2em;
+    padding: 0em;
+    margin-left: -1.3em;
+}
+.form .link{
+    text-align: right;
+    margin: auto;
+    margin-top: -2em;
+    width: 108%;
+    margin-bottom: 0em;
+    color: cornflowerblue;
+}
+
+.form .swich{
+    margin: 0 auto;
+    margin-top: 2em;
+    background-color: #4954B8;
+    border-radius: 10px;
+    float: right
+}
+.swich .icon{
+    position: relative; top: 1.7em; left: 7em
+
+}
+
+.swich input{
+    padding: 0em 1em 1em 1em;
+    border: none;
+    color: white;
+    margin: 0;
+    font-weight: 700;
+}
+
+.acount-criate{
+    margin: -1em auto;
+    max-width: 440px;
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+    color: floralwhite
+    
+}
