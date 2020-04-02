@@ -62,7 +62,7 @@ body{
     width: 5%;
     position: relative;top:3px;
 }
-.conteiner-wrapper .checkbox{
+.conteiner-wrapper .check{
     text-align: right;
     margin-top: -3em;
     
@@ -83,7 +83,7 @@ body{
 }
 #create-account {
 }
-#create-account.btn{
+#create-account.button{
     margin: auto;
     display: block;
     background: none;
